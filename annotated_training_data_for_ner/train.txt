@@ -29,6 +29,7 @@ revascularization	O
 )	O
 .	O
 
+
 on	O
 treatment	O
 with	O
@@ -57,6 +58,7 @@ mg	B-UNIT
 qd	I-UNIT
 )	O
 .	O
+
 Active	O
 pathological	B-SIGN_OR_SYMPTOMS
 bleeding	I-SIGN_OR_SYMPTOMS
@@ -75,12 +77,4 @@ increased	O
 risk	O
 of	O
 bleeding	B-SIGN_OR_SYMPTOMS
-.	O
-
-CrCL	B-GENE
-<	O
-20	B-CARDINAL
-mL	B-UNIT
-/	I-UNIT
-min	I-UNIT
 .	O

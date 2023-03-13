@@ -1,0 +1,7 @@
+CrCL	B-GENE
+<	O
+20	B-CARDINAL
+mL	B-UNIT
+/	I-UNIT
+min	I-UNIT
+.	O
