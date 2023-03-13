@@ -1,6 +1,10 @@
 The sample usage:
 
 ````python
+
+from flair.models import SequenceTagger
+from flair.data import Sentence
+
 sample_sentence_en = '''Acute ischemic symptoms compatible with diagnosis of MI,
                     such as chest pain or anginal equivalent symptoms at rest or new onset exertional anginal equivalent symptoms.'''
                     
