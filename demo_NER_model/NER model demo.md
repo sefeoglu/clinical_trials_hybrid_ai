@@ -62,14 +62,14 @@ from flair.data import Sentence
 
 
 
-sample_sentence_en = '''Acute ischemic symptoms compatible with diagnosis of MI,
+sample_sentence = '''Acute ischemic symptoms compatible with diagnosis of MI,
                     such as chest pain or anginal equivalent symptoms at rest or new onset exertional anginal equivalent symptoms.'''
                     
 model_path = "path to the trained NER model like ner_model.pt)"
 
 model = SequenceTagger.load(model_path)
 
-sentence = Sentence(sample_sentence_en)
+sentence = Sentence(sample_sentence)
 
 model.predict(sentence)
 
